@@ -1,0 +1,17 @@
+{
+    "projectId": "6864d0d1dc3d6240d02e2dd9",
+    "authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYzY2U5NzAxODM0Mjc2NDdlODA0MTgzZSIsImV4cCI6MTc1MjMwMTcwMn0.owf26PhHtyUofmb1ZgdxnEZJyor7J9-WuUi8pfnhIF8",
+    "id": "57f24e6a18e9fad8eb000296",
+    "name": "I love you,  a little ,  a lot,  passionately ... not at all",
+    "slug": "i-love-you-a-little-a-lot-passionately-dot-dot-dot-not-at-all",
+    "description": "Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:\n\n1. \"I love you\"\n2. \"a little\"\n3. \"a lot\"\n4. \"passionately\"\n5. \"madly\"\n6. \"not at all\"\n\nIf there are more than 6 petals, you start over with `\"I love you\"` for 7 petals, `\"a little\"` for 8 petals and so on.\n\nWhen the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.\n\nYour goal in this kata is to determine which phrase the girls would say at the last petal for a flower of a given number of petals. The number of petals is always greater than 0.",
+    "csrfToken": "ozACkS6b4MabBofa5xEgDmGNFLvxfTIRvQxrFb20eWYs0MwSsqBrZ3BPFk6Ko7lQAHQYbJBNfyZts0mwN3nPOQ==",
+    "languageName": "go",
+    "languageVersion": "1.20",
+    "exampleFixture": "package kata_test\nimport (\n  . \"github.com/onsi/ginkgo\"\n  . \"github.com/onsi/gomega\"\n  . \"codewarrior/kata\"\n)\n\nvar _ = Describe(\"Example Tests\", func() {\n  It(\"should test that the solution returns the correct value\", func() {\n     Expect(HowMuchILoveYou(7)).To(Equal(\"I love you\"))\n     Expect(HowMuchILoveYou(3)).To(Equal(\"a lot\"))\n     Expect(HowMuchILoveYou(6)).To(Equal(\"not at all\"))\n   })\n})\n",
+    "fixture": "/PeEQ7JgDGXQD9+OgbmUG1kTIKZ0/bTtxitedxGCMRjxgcuK/N/7BtmXPr/p\nIHxLcxnSRgjpCNueGehuQb54SR7rCQdn+y+O+odmTjLYE6IvgnG7WVc/IoV7\nJmM9gcAxANjbWV4pnvcipoIRbGc0ZaVeuYUJ7KMyMj44VcWnfb54CB4mmJa4\njpOhX4ltdnf39CJsc4y6tHrgst9Eu9mzPKOZtCdIQBY6VwEO9Q+d8Vuo9y5g\nx0k51GR4ZykA0cyie196bYnfgZ5NiJI0veDJ0girF7E/QkG5NWueDVOYORsh\ntFr0I8aCr06zv51gIgebR8TxvAEA4dPBSGYO+Er33eQgwF9sB4/M9zMQI4zB\nbiMv6k5S+QXH6CPxmgz0FK5Mt1ilql6PzC8e/4CksZe7s4a/Cid5T290oMeD\nClLYZdjsx3z2rWEkaLPGESkyPSU9NH0I/N63ud5gth5vrMiIxQZT2qspcXOY\nUXNEZ0rgkApIRVtnZogMdpTlOHEPuoVIhAOavkh3m7Yf/+kSyuBtpODWdzkN\nd2qi2tXEBJv6ZM/klV32ZSY2IVcMYj+YdSs0ZsXV8vYxAkNjGT0uffn+fy9B\nrw///SL9ZeYWTWDB+oBalqZRpoQJVSmnNVs5kWlfBJvOkp/dS8sD+ezrBgu1\nq7x+E8rdpJ5yTD/iFR2mcR2OQsI83UTfqae+EV457BDNYhv1Dmfpa5sZHLdw\nwNpY5VtnuplU7Y6CETm0FwLm/0dKV2+WV94HpQ2LtbVy5Z0yJIb3RA7qgGZw\nqgQz3xuDlXJ+rZ4ftxv+3GHfSiGdmidDsdsmbFPJCH4i6deE4snwj16Rf+jQ\niKv1XQyrqto+aRs0HtB10MTSJ9mt72vtbswf+UT8i4k8V9ZmnT6QS049fB3s\nCXYNcw4OfL25SvTW74h/1enw0qGy72BDldlgYqOi1Hqxz5XsbR9lFri1b0gO\naL8eX0/3mzyEC9KzS3NptUQ8/GzDcp/rHiYLHX9+0k8DlAoFhZQGQMt2TDNy\nodsP88ViaamUsgalTN/fmXTm4cpwKo4nkVIpa6sJzlMg8nwy8jpwNtbInGzR\nHjgJbFWAcQl/8sridN23jd1SNRnsBtDER5mjrtPlE/3EtQlaZLJZULmoy1ZG\nv+BxLWcC2LNTDQ0Dst+9bT0ytqK8gAxVpMYu6H2T+hiaW7TMjyFlRsfxfCBx\niyg+s1hHLFPpy7IT\n--ykqWTHEmo80xECSh8kjfjg==--u",
+    "setup": "package kata\n\nfunc HowMuchILoveYou(i int) string {\n  return \"\"\n}",
+    "package": "",
+    "testFramework": "ginkgo",
+    "solutionId": "6864d0d2eabf59d7e10c3db2"
+}
