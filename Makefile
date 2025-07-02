@@ -18,7 +18,19 @@ a:
 	cd $(KATA_DIR) && $(CLI) attempt
 
 s:
+	@echo "📤 Submitting $(KATA_DIR)..."
 	cd $(KATA_DIR) && $(CLI) submit
+	@if [ $$? -eq 0 ]; then \
+		echo "🎉 Submission successful! Committing to Git..."; \
+		git add $(KATA_DIR)/; \
+		git commit -m "Completed $(KATA_DIR) in Go! 🚀"; \
+		git push origin main; \
+		echo "✅ Pushed to GitHub!"; \
+	else \
+		echo "❌ Submission failed. Not committing."; \
+		exit 1; \
+	fi
+
 
 r:
 ifndef KATA
