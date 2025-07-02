@@ -1,0 +1,17 @@
+{
+    "projectId": "686362d2ccf8e9b974f3fff5",
+    "authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYzY2U5NzAxODM0Mjc2NDdlODA0MTgzZSIsImV4cCI6MTc1MjIwOTM5NH0.smkIhnaOYuMonou1UDmERXErzNYw7rC0GTf759fq4v0",
+    "id": "544675c6f971f7399a000e79",
+    "name": "Convert a String to a Number!",
+    "slug": "convert-a-string-to-a-number",
+    "description": "Note: This kata is inspired by [Convert a Number to a String!](http://www.codewars.com/kata/convert-a-number-to-a-string/). Try that one too.\n\n## Description\n\nWe need a function that can transform a string into a number. What ways of achieving this do you know?\n\nNote: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.\n\n## Examples\n```\n\"1234\" --> 1234\n\"605\"  --> 605\n\"1405\" --> 1405\n\"-7\" --> -7\n```\n\n",
+    "csrfToken": "v2hljxLKxIMULnS4p86aepf1I2stQREwp7wmIiRkY1AwiKsMjvFPIv9n5SzKfAMk9gwvvExxXAd3AwSHrqnVDw==",
+    "languageName": "go",
+    "languageVersion": "1.20",
+    "exampleFixture": "// TODO: replace with your own tests (TDD). An example to get you started is included below.\n// Ginkgo BDD Testing Framework <http://onsi.github.io/ginkgo/>\n// Gomega Matcher Library <http://onsi.github.io/gomega/>\n\n\npackage kata_test\nimport (\n  . \"github.com/onsi/ginkgo\"\n  . \"github.com/onsi/gomega\"\n  . \"codewarrior/kata\"\n)\n\n\nvar _ = Describe(\"Tests\", func() {\n     It(\"Sample tests\", func() {\n       Expect(StringToNumber(\"1234\")).To(Equal(1234))\n       Expect(StringToNumber(\"605\")).To(Equal(605))\n       Expect(StringToNumber(\"1405\")).To(Equal(1405))\n       Expect(StringToNumber(\"-7\")).To(Equal(-7))\n     })\n})\n\n",
+    "fixture": "jJy36et5CIyPKRuA2PMtgZiO0DuxNeDzmka+nvjOS/5iGBV/jpsKfD45qtul\nZCKeMwo9+ULs2qPu8K8kPlo8dRutpTGjGd2ZHuJozxU+EFlW/yDYhp/Dtsaa\n0xZZV3k5dO8eYWc1WTij3SPVVO2BFb71SS6Onhh0kq7fn8njTSkrSlSFavqJ\nPqtYre16SUW708fzOLbje3aj7D4sVekS9CilgcCn7wRpHAEGdpXnUBfU4v2i\nS2B4rBEFQi6DiOYg7QTHSTnnpRF+2rZZZ6A01tBfSYzy90gulITYWccO5+sb\n2NtLSMQjodV7+RyzxSPApQg4Bb/jqRcotDwOQT41zPfvCo037fcgn+I5wrof\n+ZxASrF5k8++Cf3Dmd9EX75SXjSrrQMYbSjxqIbNzqA+ckAMWZ5gkIt8dL9+\nJ/c3OKRce6dg+tCM5mR/bVqHgHUrqzKVHOXocP5DbZYmVufPQyGAEAH3o8Kk\nIE5a1pTxgSOR/Sz3wXZdLdQ81VMu+oqo7Jjfb/Nwf07Pt9fYww+dNjHTXZHn\nU1vapG8ncT1rbG3blWLBL7Z/2Q7acEXyeIiVZ9mCJ6HfumXAKRwAkPw2eyoe\nIFO9gGU27xReP418K2BKF2J3QBmJiIJMhXcTfz4hjGVtjMHtDsLf3pex71m0\nKdgrdupfv+2E6gCwuuuEpj5EMbT+IGyPTkingDvJ4XCpxN6SyQAZ4h5bzCJX\nzSLvunVOCFZ7JpIxEfs02xWno9e8640a90jVET4hVoiD/R/T6pUH+Qe1LiS+\namuu1OAAYG9IWT/osuXPIEcMMYpTDSxdl9OZgJ9Kz52XgFjgbNmk+eN2HKBn\nxGWwYDk6sPt2b6KAsOXIpvwAf6jHuuA4hkYtkuulEkcyp54amisDB4c6ztKU\nMWPZWsU5B3SfXVyo9A==\n--WBHOa48SWibeGnfj0+03wg==--u",
+    "setup": "package kata\n\n\nfunc StringToNumber(str string) int {\n      // your code here\n}\n",
+    "package": "",
+    "testFramework": "ginkgo",
+    "solutionId": "686362d3ccf8e9b974f3fff7"
+}

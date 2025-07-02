@@ -1,0 +1,17 @@
+{
+    "projectId": "68637074943cac867f09875e",
+    "authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYzY2U5NzAxODM0Mjc2NDdlODA0MTgzZSIsImV4cCI6MTc1MjIxMTMzMn0.mdGvKsQ4A0NlUaF0ZT4zCoFof9LQT_ObpUhQk3Kgq1g",
+    "id": "57eadb7ecd143f4c9c0000a3",
+    "name": "Abbreviate a Two Word Name",
+    "slug": "abbreviate-a-two-word-name",
+    "description": "Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.\n\nThe output should be two capital letters with a dot separating them.\n\nIt should look like this:\n\n`Sam Harris` => `S.H`\n\n`patrick feeney` => `P.F`\n\n~~~if:riscv\nRISC-V: The function signature is:\n\n```c\nchar *get_initials(const char *full_name, char initials[4]);\n```\n\nWrite your result to `initials`, and return that buffer.\n~~~\n",
+    "csrfToken": "E8UzqkHFe4+jIzYCgMun3wdok1aBIbA1DMJpTKLl2AmcJf0p3f7wLkhqp5bteT6BZpGfgeAR/QLcfUvpKChuVg==",
+    "languageName": "go",
+    "languageVersion": "1.20",
+    "exampleFixture": "package kata_test\nimport (\n  . \"github.com/onsi/ginkgo\"\n  . \"github.com/onsi/gomega\"\n  . \"codewarrior/kata\"\n)\nvar _ = Describe(\"Test Example\", func() {\n   It(\"should test that the solution returns the correct value\", func() {\n     Expect(AbbrevName(\"Sam Harris\")).To(Equal(\"S.H\"))\n     Expect(AbbrevName(\"Patrick Feenan\")).To(Equal(\"P.F\"))\n     Expect(AbbrevName(\"Evan Cole\")).To(Equal(\"E.C\"))\n     Expect(AbbrevName(\"P Favuzzi\")).To(Equal(\"P.F\"))\n     Expect(AbbrevName(\"David Mendieta\")).To(Equal(\"D.M\"))\n   })\n})",
+    "fixture": "guQae1onMaWoWTsK+FAxlA3jCwcMm94ThkqxMp26xOmLDUNG+rdJgUixmRKf\nh2gIxnU2ztzlp2pUyV13ppd94BlnHd8a9TFHPGmDZY5A5sUQ7VmUjR4LlvBJ\n5/O8C2suF0Isgz3O4IY2avS41oxuKnSUA0Zj44z00d5GuLIZmbWN9t60XkgT\nQKZnBvxKNLxBIGXWndY8HvDEV8MZSCooaXdsCK/XV+fTAwwv5L20poFa3JVS\n85RH/Pe5xInNiKXF8ohXqOn+FB9+ngezuurpIxwUsWVtNKALICo6kM/YsqW4\nFPEVkJF6bar6lDAQIsg3RHsk3xmIFHGuWnzTcMS4xzAUddbQMVnfX+f4N8+4\n9Ab7+VoWu6b63AmCxMd3NaZLpWd/s+nVm7pxE3eIQeckwk0Vc0udzVeFCHJs\nI5xHF1/emRZ9dkxBHIo+JEOVShnZAV2Adj5ir5GOtoL8b5G+pLSooKSxZLUk\nhRBPTvszEv24lsdLLJECu5fpe6Jalv4UIQ7XQnq8xS4U3iAxBv4QgMxprcgp\nr+2piVDrtjkh2/QyASjF0vX85oHyKfjeGbhEvqRaObVUBvqVs22RE8F4qMIY\ndQIg1/FUBg+nn7jW7uz9auD1FetG5wm6Ri53ZgUmED5+LUpa1VtRfX30zYTX\nyrAmRAiQhvl3qfNqYk+/ewQ=\n--lTFqQneGk4jDNVsW1OBlCQ==--u",
+    "setup": "package kata\n\nfunc AbbrevName(name string) string{\n  //your code here\n  return \"\"\n}",
+    "package": "",
+    "testFramework": "ginkgo",
+    "solutionId": "686370750bf5ba5d49f3ffd9"
+}
